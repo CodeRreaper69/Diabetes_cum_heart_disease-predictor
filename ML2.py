@@ -296,6 +296,7 @@ def pred_heart_dis(input_data):
 
     if prediction[0] == 0:
         st.success('DOES NOT HAVE HEART DISEASE RISK')
+        st.snow()
     elif prediction[0] == 1:
         st.warning('MAY HAVE A HEART DISEASE RISK')
 
