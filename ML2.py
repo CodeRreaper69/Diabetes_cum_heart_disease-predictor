@@ -70,7 +70,7 @@ def main():
     #about the developer
     with st.expander("CONTACT THE DEVELOPER"):
         st.write(" [LEARN MORE ABOUT THE DEVELOPER >](https://sourabh-dey-resume.streamlit.app/)")
-        st.image("me.png",width = 250)
+        st.image("profile-pic (6).png",width = 250)
         contact = """ <form action="https://formsubmit.co/uhddey@gmail.com" method="POST">
                  <input type="text" name="name" placeholder = "YOUR NAME" required>
                  <input type="email" name="email" placeholder = "YOUR EMAIL" required>
@@ -224,7 +224,7 @@ def main_diabetes():
                 
     Age = st.number_input("ENTER YOUR AGE: ",1,101)
 
-
+    SkinThickness = 10
     if a == "MALE":  # Male
         if Age >= 1 and Age <= 9:
             SkinThickness = random.uniform(5.0,12.1)
